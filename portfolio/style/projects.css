@@ -1,0 +1,92 @@
+html, body{
+  width: 100%;
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed' sans-serif;
+}
+
+.logo{
+  position:fixed;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.banner{
+    z-index: 2;
+    width: 100%;
+    background-color: #2184AA;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+
+.backButton{
+  border-radius: 20px;
+  margin: 2%;
+  text-align: center;
+  font-size: 50px;
+  background-color: #2184AA;
+  width: 150px;
+  height: 60px;
+}
+
+.backButton>a{
+  text-decoration: none;
+  color: black;
+}
+
+.theProject{
+  padding: 3%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+width: 55%;
+height: 60%;
+background-color: white;
+margin-top: 10%;
+}
+
+.theProject_buttons{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.theProject_buttons>a{
+  color: white;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 10%;
+  padding: 2%;
+  background-color: #2184AA;
+  text-decoration: none;
+}
+
+.theProject_buttons>a:hover{
+  transition: 0.2s;
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 1190px){
+
+.theProject{
+  margin-top: 25%;
+  width: 90%;
+  height: 50%;
+}
+
+.theProject>h1{
+  font-size: 35px;
+}
+
+.theProject>h2{
+  font-size: 28px;
+}
+
+
+}
